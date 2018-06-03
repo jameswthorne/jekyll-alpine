@@ -9,7 +9,7 @@ RUN apk upgrade --update \
         ruby-io-console ruby-irb ruby-json ruby-rake \
  && gem install --no-document redcarpet kramdown maruku rdiscount RedCloth liquid pygments.rb \
  && gem install --no-document sass safe_yaml \        
- && gem install --no-document jekyll -v 3.6.2 \
+ && gem install --no-document jekyll -v 3.8.2 \
  && gem install --no-document jekyll-paginate jekyll-sass-converter \
  && gem install --no-document jekyll-sitemap jekyll-feed jekyll-redirect-from \
  && rm -rf /root/src /tmp/* /usr/share/man /var/cache/apk/* \
