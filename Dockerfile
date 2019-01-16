@@ -17,10 +17,6 @@ RUN apk upgrade --update \
             yaml-dev libffi-dev libxml2-dev \
  && apk search --update
 
-RUN adduser -D jekyll
-
-USER jekyll
-
 EXPOSE 4000
  
 ENTRYPOINT ["jekyll"]
